@@ -4,7 +4,7 @@ const GAME_OBJECTS = [];
 export class GameObject {
   constructor() {
     GAME_OBJECTS.push(this);
-    this.timeDelta = 0; //Time between frames to be used for velocity
+    this.timeDelta = 0; //  time between frames to be used for velocity, Unit: Millisecond， 1s = 1000ms
     this.hasStarted = false;
   }
 
